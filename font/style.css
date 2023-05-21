@@ -1,0 +1,240 @@
+/* html body */
+html,body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    margin: 0  ;
+}
+
+.clear {
+    clear: both;
+}
+.fa-brands {
+    color: black;
+    padding-right: 20px;
+}
+
+.fa-solid {
+    padding-left: 10px;
+}
+
+/* begin header top */
+.containers {
+    display: flex;
+}
+
+.ht-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ht-left,.ht-between,.nation,.individual {
+    border: 0.1px solid #c7c4c4e6;
+    padding-right: 5px;
+    font-size: 15px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    width: 33.33333%;
+}
+
+.ht-left {
+    width: 300px;
+}
+
+.ht-between {
+    width: 600px;
+
+}
+.nation {
+    width: 150px;
+
+}
+.individual {
+    justify-content: space-between;
+    width: 100px;
+}
+
+/* End header top */
+
+/* --------------------------- */
+/* begin container */
+.inter-header {
+    height: 100px;
+    border: 0.1px ;
+}
+
+.row,.col-lg-2,.icon {
+    display: flex;
+    height: 40px;
+}
+
+.logo {
+    padding: 35px;
+    padding-right: 120px;
+}
+
+.advanced-search {
+    display: flex;
+    border: 0.1px solid #c7c4c4e6;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-top: 27px;
+    
+}
+
+.font-search {
+    padding-right: 40px;
+
+}
+
+.input-font {
+    padding-right: 150px;
+}
+
+.fa-magnifying-glass {
+    padding: 0 10px 0 10px;
+    color: #fff;
+}
+button {
+    background-color: #e7ab3c;
+}
+
+
+
+.icon {
+    padding: 40px 20px 10px 100px ;
+}
+
+
+.heart,.shop {
+    padding-right: 20px;
+
+}
+/* End container */
+
+
+/* begin nav-item */
+
+.container-item {
+    height: 50px;
+    background-color: #000;
+}
+
+#nav {
+    margin: 0;
+    padding: 0 12px;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav li a {
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+    display: block;
+}
+
+#nav > li:hover > a {
+    background-color: #bdbdbdd3;
+}
+
+#nav li:hover .subnav {
+        display: block;
+}
+
+#nav .subnav  {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0 5px;
+    width: 200.75px;
+}
+
+#nav .subnav a {
+    color: #000;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+#nav .subnav li:hover a {
+    color: #d1b120;
+}
+/* end nav-item */
+
+
+/* begin begin product list */
+
+#content .product-img {
+    margin-left: 35px;
+    margin-right: auto;
+}
+
+#content .product-list {
+    margin-top: 60px;
+}
+
+#content .product-item {
+    float: left;
+    width: 33.33333%;
+}
+#content .product-name {
+    text-align: center;
+}
+
+.product-item .Add-product {
+    margin-left: 110px;
+    padding: 10px;
+}
+.product-item .Add-product:hover {
+    background-color: rgb(233, 61, 61);
+    color: #fff;
+}
+/* end product list */
+
+/* begin begin footer */
+#footer .trademark-logo {
+    background-color: #3f3e3e;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#footer .logo {
+    padding: 10px 20px;
+}
+
+
+
+#footer .footer-information {
+    background-color: #000;
+    width: 1050px;
+    height: 200px;
+    padding: 40px 0 40px 0;
+    width: 100%;
+}
+
+#footer .information-item p, #footer .information-item h4{
+    color: #706f6f;
+    margin: 0;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#footer .information-font {
+    float: left;
+    padding: 0 15px;
+}
+/* end begin footer */
