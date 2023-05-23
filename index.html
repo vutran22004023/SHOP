@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./font/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
 </head>
 <body>
+    <div id="main">
         <!-- begin header -->
         <header class="header-section">
             <!-- begin header top -->
@@ -74,7 +75,8 @@
 
                         <div class="icon">
                             <div class="heart"><i class="fa-solid fa-heart"></i></div>
-                            <div class="shop"><i class="fa-solid fa-shop"></i></div>
+                            <button class="btn shop js-buy-shop"><i class="fa-solid fa-shop js-buy-shop"></i></button>
+                            
                         </div>
                     </div>
                 </div>
@@ -234,5 +236,57 @@
             </div>
         </footer>
         <!-- end footer -->
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <div class="modal-header">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Shopping cart
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-body-item">
+                    <div class="modal-item-img">
+                        <a 
+                        href="#"><img class="item-img"  src="./font/img/products/man-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="font-price">
+                        <p class ="font-color">đ60.00 x 1</p>
+                        <p>Kabino Bedside Table</p>
+                    </div>
+                </div>
+
+                <div class="modal-body-item">
+                    <div class="modal-item-img">
+                        <a 
+                        href="#"><img class="item-img"  src="./font/img/products/man-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="font-price">
+                        <p class ="font-color">đ60.00 x 1</p>
+                        <p>Kabino Bedside Table</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-item-pay">
+                <div class="modal-item-giathanh">
+                    <div class="modal-item-pay-p" >TOTAL:</div>
+                    <div class="modal-item-pay-p">đ 120.00</div>
+                </div>
+                <div class="button-pay">
+                    <button class="item-pay">VIEW CARD</button>
+                    <button class="item-pay-p">CHECK OUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>
